@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <FORM ACTION="user@gmail.com" METHOD="POST" ENCTYPE="text/plain" NAME="cadastro">
+        <h1>Novo Usuário</h1>
+        Nome: <br><INPUT TYPE="TEXT" NAME="nome" SIZE="80">
+        <br>
+        <br>
+        RG: <br><INPUT TYPE="TEXT" NAME="cpf" SIZE="20">
+            <br>
+        Endereço: <br><INPUT TYPE="TEXT" NAME="sexo" SIZE="35">
+            <br>
+        Escolaridade: <br><SELECT NAME="nivel">
+            <OPTION VALUE="Escolaridade"> ---
+            <OPTION VALUE="Ensino medio completo"> Ensino Medio
+            <OPTION VALUE="Faculdade"> Ensino superior incompleto
+            <OPTION VALUE="Faculdade"> Ensino superior completo
+        </SELECT>
+        <br>
+        E-mail: <br><INPUT TYPE="TEXT" NAME="email" SIZE="35">
+            <br>
+        Estado Civil: <br> <SELECT NAME="status">
+            <OPTION VALUE="ativo"> ---
+            <OPTION VALUE="solteiro"> Solteiro
+            <OPTION VALUE="Casado"> Casado
+        </SELECT><br><br>
+        <INPUT TYPE="SUBMIT" VALUE="Enviar">
+        <INPUT TYPE="reset" VALUE="Cancelar">
+    </FORM>
+
+</body>
+
+</html>

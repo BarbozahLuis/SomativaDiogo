@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #023047
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #72d923;
+    
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    background-color: #bbe396;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+}
+ 
+    
+   
+
